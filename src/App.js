@@ -15,7 +15,6 @@ class App extends Component {
             Emmental taleggio queso taleggio cheese and biscuits everyone loves stinking bishop cheese triangles.
             Bocconcini the big cheese cow bavarian bergkase port-salut when the cheese comes out everybody's happy fondue cheesecake.
             Babybel blue castello hard cheese cream cheese ricotta pecorino croque monsieur pecorino. 
-            Macaroni cheese danish fontina stilton cheddar say cheese cheese on toast say cheese cottage cheese. 
             Goat cheesy grin croque monsieur caerphilly swiss bavarian bergkase ricotta croque monsieur. 
             Danish fontina cheese and biscuits.
           </div>
@@ -47,7 +46,7 @@ class App extends Component {
         </main>
         <div id="footer">
           <p id="footerCopy">
-            Blue bottle put a bird on it twee prism biodiesel brooklyn. Blue bottle ennui tbh succulents.
+            Macaroni cheese danish fontina stilton cheddar say cheese cheese on toast say cheese cottage cheese. 
           </p>
           <div id="contactInfo">
             <p>Casie Siekman</p>

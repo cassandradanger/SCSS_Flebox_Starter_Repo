@@ -78,3 +78,14 @@ li img{
 #footer #contactInfo p{
   margin: 0;
 }
+
+@media screen and (max-width: 700px) {
+  ul{
+    /* border: 1px solid black; */
+    width: 90%;
+    margin: 20px;
+  }
+  #form{
+    width: 90%;
+  }
+}

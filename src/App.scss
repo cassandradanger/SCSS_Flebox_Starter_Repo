@@ -1,10 +1,8 @@
-main{
-  margin: 20px;
-}
+@import './index.scss';
 
 header{
-  background-color: teal;
-  color: white;
+  background-color: $primary;
+  color: $secondary;
   height: 100px;
   width: 100%;
   padding: 0;
@@ -16,12 +14,13 @@ h1{
   padding: 30px 0 0 0;
 }
 
-#form{
-  border: 1px solid black;
-  width: 40%;
-  display: inline-block;
-  padding: 20px;
-  vertical-align: top;
+main{
+  margin: 20px;
+}
+
+#subMain{
+  display: flex;
+  align-items: flex-start;
 }
 
 #intro{
@@ -29,54 +28,54 @@ h1{
   text-align: center;
   margin: 0 auto;
   padding: 30px 0;
+}
 
+#form{
+  border: 2px solid $border;
+  border-radius: 5px;
+  width: 30%;
+  padding: 20px;
+  vertical-align: top;
+  input{
+    display: block;
+    width: 90%;
+    margin-bottom: 10px;
+  }
 }
 
 ul{
-  /* border: 1px solid black; */
-  width: 45%;
-  display: inline-block;
-  padding: 20px;
-  list-style: none;
-  margin-top: -20px;
+  @include reset-list;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 li{
-  display: inline;
-  margin: 10px;
-}
-
-li img{
-  height: 100px;
-}
-
-#form input{
-  display: block;
-  width: 90%;
+  @include display-list-items(inline);
+  img{
+    height: 100px;
+  }
 }
 
 #footer{
+  display: flex;
   width: 100%;
   height: 70px;
-  background-color: teal;
+  background-color: $primary;
   color: white;
   padding: 10px;
-  position: absolute;
-  bottom: 0;
-}
-
-#footer #footerCopy{
-  width: 70%;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-#footer #contactInfo{
-  width: 25%;
-  display: inline-block;
-  text-align: right;
-}
-
-#footer #contactInfo p{
-  margin: 0;
+  #footerCopy{
+    width: 70%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  #contactInfo{
+    width: 25%;
+    display: inline-block;
+    text-align: right;
+    p{
+      margin: 0;
+    }
+  }
 }

@@ -1,0 +1,20 @@
+$primary: teal;
+$secondary: white;
+$danger: red;
+$border: darkgrey;
+
+body{
+  margin: 0;
+  padding: 0;
+} 
+
+@mixin reset-list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin display-list-items($display){
+  margin: 10px;
+  display: $display;
+}

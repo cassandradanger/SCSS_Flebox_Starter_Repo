@@ -79,3 +79,16 @@ li{
     }
   }
 }
+
+@media screen and (max-width: 700px) {
+  #subMain{
+    flex-flow: column wrap;
+  }
+  ul{
+    width: 90%;
+    margin: 20px;
+  }
+  #form{
+    width: 90%;
+  }
+}
